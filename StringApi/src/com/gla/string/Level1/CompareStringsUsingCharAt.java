@@ -10,7 +10,7 @@ public class CompareStringsUsingCharAt {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         String a=sc.next();
-        String b=sc.next();
+        String b=sc.next(); //hi 
         System.out.println(compare(a,b)==a.equals(b));
     }
 }
